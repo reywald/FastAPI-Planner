@@ -9,6 +9,7 @@ uvicorn = {path = "D:/Programming/Softwares/Python Modules/Libraries/uvicorn-0.1
 autopep8 = {path = "D:/Programming/Softwares/Python Modules/Libraries/autopep8-1.5.7-py2.py3-none-any.whl"}
 jinja2 = "*"
 "pydantic[email]" = "*"
+beanie = "*"
 
 [dev-packages]
 
