@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = {path = "D:/Programming/Softwares/Python Modules/Libraries/fastapi-0.85.0-py3-none-any.whl"}
+uvicorn = {path = "D:/Programming/Softwares/Python Modules/Libraries/uvicorn-0.18.3-py3-none-any.whl"}
+autopep8 = {path = "D:/Programming/Softwares/Python Modules/Libraries/autopep8-1.5.7-py2.py3-none-any.whl"}
+jinja2 = "*"
+"pydantic[email]" = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
