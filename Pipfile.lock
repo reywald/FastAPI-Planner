@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "adf9f9fba674adceece066ae0102d8fa4176c4c29d974c5ab51e6e222dc56465"
+            "sha256": "ac9153cd69ea1af1b211731a5256677fe21a5eac6a9ee5817b332dd17e24bd31"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -232,7 +232,7 @@
         },
         "pydantic": {
             "extras": [
-                "email"
+                "dotenv"
             ],
             "hashes": [
                 "sha256:05e00dbebbe810b33c7a7362f231893183bcc4251f3f2ff991c31d5c08240c42",
@@ -273,7 +273,6 @@
                 "sha256:e9069e1b01525a96e6ff49e25876d90d5a563bc31c658289a8772ae186552236"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.7'",
             "version": "==1.10.2"
         },
         "pymongo": {
@@ -355,6 +354,13 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==4.3.2"
+        },
+        "python-dotenv": {
+            "hashes": [
+                "sha256:1684eb44636dd462b66c3ee016599815514527ad99965de77f43e0944634a7e5",
+                "sha256:b77d08274639e3d34145dfa6c7008e66df0f04b7be7a75fd0d5292c191d79045"
+            ],
+            "version": "==0.21.0"
         },
         "sniffio": {
             "hashes": [

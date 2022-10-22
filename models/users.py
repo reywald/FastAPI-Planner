@@ -22,6 +22,6 @@ class User(Document):
         }
 
 
-class UserSigIn(Document):
+class UserSigIn(User):
     email: EmailStr
     password: str
