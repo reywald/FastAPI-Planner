@@ -11,6 +11,7 @@ jinja2 = "*"
 "pydantic[email]" = "*"
 beanie = "*"
 pydantic = {extras = ["dotenv"], version = "*"}
+passlib = {extras = ["bcrypt"], version = "*"}
 
 [dev-packages]
 
